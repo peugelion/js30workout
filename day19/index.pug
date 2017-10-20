@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Get User Media Code Along!
+		link(type="text/css" rel="stylesheet" href="styles.css")
+	body
+		.photobooth
+			.controls
+				button(onClick="takePhoto()") Take Photo
+			canvas.photo
+			video.player
+			.strip
+		audio(class="snap" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden)
+		script(type="text/javascript" src="main.js")
